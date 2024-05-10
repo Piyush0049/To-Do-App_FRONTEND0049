@@ -11,7 +11,7 @@ const Navbar = () => {
   const navigate = useNavigate();
   let log = "Login";
   const { isauthenticated, isloading, setisauthenticated, setisloading } = useContext(context);
-  
+
   if (isauthenticated) {
     log = "Switch account";
   } else {
@@ -88,7 +88,7 @@ const Navbar = () => {
 
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div className="container-fluid">
+      <div class="container-fluid">
         <Link className="navbar-brand" to="/">To-Do Work</Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
@@ -125,3 +125,6 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+
+
