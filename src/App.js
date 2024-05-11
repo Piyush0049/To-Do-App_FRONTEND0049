@@ -15,7 +15,7 @@ import {
   Route
 } from "react-router-dom";
 
-export const bserver = "https://todoapp-backend-shnb.onrender.com" 
+export const bserver = "https://todoapp-backend-shnb.onrender.com"
 
 
 function App() {
