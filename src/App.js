@@ -15,7 +15,7 @@ import {
   Route
 } from "react-router-dom";
 
-export const bserver = "https://to-do-app-backend-pzg7.vercel.app" 
+export const bserver = "https://todoapp-backend-shnb.onrender.com" 
 
 function App() {
   const {isauthenticated} = useContext(context);
